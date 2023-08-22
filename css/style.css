@@ -1,0 +1,45 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link.active {
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white !important;
+
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+    padding:5%;
+}
+nav{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+nav .hamburger {
+    width:180px ;
+    text-align: right;
+}
+
+.top {
+    background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 75vh;
+}
+.jumbotron {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+}
