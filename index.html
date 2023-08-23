@@ -12,8 +12,8 @@
     <title>SecondHandHounds.org Redesign</title>
 </head>
 <body>
-<section name="top">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<section name="top" >
+<nav class="navbar navbar-expand-lg navbar-light">
 
     <a class="navbar-brand" href="#"><img src="images/logoKRD.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,19 +27,15 @@
                     SHH Project
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#SHH">SecondhandHounds.org</a>
-                    <a class="dropdown-item" href="#">The Project</a>
-                    <a class="dropdown-item" href="#">My Role</a>
-                    <a class="dropdown-item" href="#">Insights</a>
-                    <a class="dropdown-item" href="#">Next Steps</a>
+                    <a class="dropdown-item" href="#project">The Project</a>
+                    <a class="dropdown-item" href="#role">My Role</a>
+                    <a class="dropdown-item" href="#insights">Insights</a>
+                    <a class="dropdown-item" href="#journey">Solution Journey</a>
+                    <a class="dropdown-item" href="#userRe">User Research</a>
+                    <a class="dropdown-item" href="#styleGuide">Style Guide</a>
+                    <a class="dropdown-item" href="#proto">All Prototypes</a>
+                    <a class="dropdown-item" href="#steps">Next Steps</a>
                 </div>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">User Research</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Style Guide</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -47,10 +43,10 @@
                     Prototypes
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Low Fidelity</a>
-                    <a class="dropdown-item" href="#">Mid Fidelity</a>
-                    <a class="dropdown-item" href="#">High Fidelity</a>
-                    <a class="dropdown-item" href="#">Feature Feedback</a>
+                    <a class="dropdown-item" href="#low">Low Fidelity</a>
+                    <a class="dropdown-item" href="#mid">Mid Fidelity</a>
+                    <a class="dropdown-item" href="#high">High Fidelity</a>
+                    <a class="dropdown-item" href="#featureFeed">Feature Feedback</a>
                 </div>
             </li>
         </ul>
@@ -114,25 +110,25 @@
         </div>
     </div>
 
-    <!-- Process -->
-    <div class="row justify-content-md-center text-center">
+    <!-- Solution Journey -->
+    <div class="row justify-content-md-center text-center" id="journey">
         <div class="col col-lg-6 col-md-6 col-sm-12 p-3">
-            <h1>Process</h1>
+            <h1>Solution Journey</h1>
         </div>
     </div>
 
     <!-- User Research -->
     <div class="row backgroundFocus" id="userRe">
-        <div class="col col-lg-12 col-md-12 col-sm-12 p-3">
-            <h2>User Research</h2>
+        <div class="col col-lg-6 col-md-6 col-sm-6 p-3">
+            <h2 class="border-bottom border-danger">User Research</h2>
             <p>Conducted virtual interviews and sent out surveys to understand users needs of a pet adoption website. Used affinity map
                 to gather feedback and identify trends in the results.
             </p>
         </div>
     </div>
     <!-- User Research Columns -->
-    <div class="row backgroundFocus">
-        <div class="justify-content-md-center col-lg-6 col-md-6 col-sm-12" id="project">
+    <div class="row p-5 backgroundFocus">
+        <div class="justify-content-md-center col-lg-6 col-md-6 col-sm-12">
             <h4>User Interview Feedback</h4>
             <ul>
                 <li>Easy to find and look at cute pets</li>
@@ -140,7 +136,7 @@
                 <li>Health Report</li>
             </ul>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12" id="role">
+        <div class="col-lg-6 col-md-6 col-sm-12">
             <h4>Future Features</h4>
             <ul>
                 <li>Updated Homepage, stylized navigation</li>
@@ -151,23 +147,23 @@
     </div>
 
     <!-- Style Guide Description -->
-    <div class="row" id="styleGuide">
-        <div class="col col-lg-12 col-md-12 col-sm-12 p-3">
-            <h2>Style Guide</h2>
-            <p>Original site in need of a standard design that can be applied to both Mobile and Desktop. Created a style guide that can be utilized
+    <div class="row " id="styleGuide">
+        <div class="col col-lg-6 col-md-6 col-sm-12 p-3">
+            <h2 class="border-bottom border-danger">Style Guide</h2>
+            <p>Original site in need of a standar design that can be applied to both Mobile and Desktop. Created a style guide that can be utilized
                 thought out the site for new look and feel.
             </p>
         </div>
     </div>
 
     <!-- Style Guide Image -->
-    <div class="row justify-content-md-center text-center" id="SHH">
+    <div class="row justify-content-md-center text-center">
         <div class="col col-lg-12 col-md-12 col-sm-12">
             <img src="images/StyleGuide.png" class="img-fluid mx-auto p-2 " alt="Mobile Hero">
         </div>
     </div>
     <!-- Components Image -->
-    <div class="row justify-content-md-center text-center" id="SHH">
+    <div class="row justify-content-md-center text-center">
         <div class="col col-lg-12 col-md-12 col-sm-12">
             <img src="images/ComponentsNB.png" class="img-fluid mx-auto p-2 " alt="Mobile Hero">
         </div>
@@ -175,9 +171,9 @@
 
 
     <!-- Prototypes Description -->
-    <div class="row backgroundFocus" id="proto">
-        <div class="col col-lg-12 col-md-12 col-sm-12 p-3">
-            <h2>Prototypes</h2>
+    <div class="row" id="proto">
+        <div class="col col-lg-6 col-md-6 col-sm-12 p-3">
+            <h2 class="border-bottom border-danger">Prototypes</h2>
             <p>Conducted virtual interviews and sent out surveys to understand users needs of a pet adoption website.
                 Used affinity map to gather feedback and identify trends in the results.
             </p>
@@ -185,7 +181,7 @@
     </div>
 
     <!--Low Fed -->
-    <div class="row justify-content-md-center text-center backgroundFocus" id="SHH">
+    <div class="row justify-content-md-center text-center backgroundFocus" id="low">
         <div class="col col-lg-12 col-md-12 col-sm-12 p-5">
             <h3>Low Fidelity</h3>
             <img src="images/LowFiTestingNotes.png" class="img-fluid" alt="Mobile Hero">
@@ -193,7 +189,7 @@
     </div>
 
     <!--Mid Fed -->
-    <div class="row justify-content-md-center text-center backgroundFocus" id="SHH">
+    <div class="row justify-content-md-center text-center backgroundFocus" id="mid">
         <div class="col col-lg-12 col-md-12 col-sm-12 p-5">
             <h3>Mid Fidelity</h3>
             <img src="images/MidFiNotes.png" class="img-fluid" alt="Mobile Hero">
@@ -201,7 +197,7 @@
     </div>
 
     <!--High Fed -->
-    <div class="row justify-content-md-center text-center backgroundFocus" id="SHH">
+    <div class="row justify-content-md-center text-center backgroundFocus" id="high">
         <div class="col col-lg-12 col-md-12 col-sm-12 p-3">
             <h3>High Fidelity</h3>
             <img src="images/HiFiNotes.png" class="img-fluid" alt="Mobile Hero">
@@ -209,7 +205,7 @@
     </div>
 
     <!--Feature Feedback -->
-    <div class="row justify-content-md-center text-center backgroundFocus" id="SHH">
+    <div class="row justify-content-md-center text-center backgroundFocus" id="featureFeed">
         <div class="col col-lg-12 col-md-12 col-sm-12 p-3">
             <h3>Feature Feedback</h3>
             <img src="images/A_BTestingNotes.png" class="img-fluid mx-auto" alt="Mobile Hero">
@@ -219,7 +215,7 @@
 
 
     <!--Buttons -->
-    <div class="row justify-content-md-center text-center backgroundFocus" id="SHH">
+    <div class="row justify-content-md-center text-center backgroundFocus">
         <div class="col p-3">
             <button type="button" class="btn btn-primary btn-lrg">Mobile Figma Prototype</button>
             <button type="button" class="btn btn-primary btn-lrg">Desktop Figma Prototype</button>
@@ -228,8 +224,8 @@
 
     <!-- Next Steps -->
     <div class="row" id="steps">
-        <div class="col col-lg-12 col-md-12 col-sm-12 p-3">
-            <h1>Next Steps</h1>
+        <div class="col col-lg-6 col-md-6 col-sm-12 p-3">
+            <h1 class="border-bottom border-danger">Next Steps</h1>
             <p>
                 This project was a great opportunity to update style on an existing site. We identified several other features that
                 could be built out to further expand this site. These items were all called out by in our user interview process.
@@ -257,14 +253,65 @@
 
 
 
-<footer class="footer">
-    <div class="container">
-        <ul>
-            <a href="#work"><li class="tab workTab">SHH Project</li></a>
-            <a href="#info"><li class="tab aboutTab">User Research</li></a>
-            <a href="#skills"><li class="tab contactTab">Style Guide</li></a>
-            <a href="#skills"><li class="tab contactTab">Prototypes</li></a>
-        </ul>
+<footer class="text-center text-lg-start backgroundFocus">
+    <div class="container p-4">
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-3">SHH Redesign</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="#role" class="text-dark">My Role</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#insights" class="text-dark">Insights</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#journey" class="text-dark">Solution Journey</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#userRe" class="text-dark">User Research</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#styleGuide" class="text-dark">Style Guide</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#proto" class="text-dark">All Prototypes</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#steps" class="text-dark">Next Steps</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-3">Wireframes</h5>
+
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="#low" class="text-dark">Low Fidelity</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#mid" class="text-dark">Mid Fidelity</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#high" class="text-dark">High Fidelity</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#featureFeed" class="text-dark">Feature Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">Kelsey Dadi</a>
     </div>
 </footer>
 
